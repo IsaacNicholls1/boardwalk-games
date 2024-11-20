@@ -67,6 +67,14 @@ h2 {
     color: white;
 }
 
+.student-discount:no-hover {
+    border: 2px solid white; background-color: blue; 
+    color: white; 
+    font-weight: bold; 
+    padding: 10px;
+}
+
+
 /* Navbar */
 
 #navbar {
