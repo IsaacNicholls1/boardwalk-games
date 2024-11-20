@@ -67,12 +67,6 @@ h2 {
     color: white;
 }
 
-.student-discount:no-hover {
-    border: 2px solid white; background-color: blue; 
-    color: white; 
-    font-weight: bold; 
-    padding: 10px;
-}
 
 
 /* Navbar */
@@ -166,6 +160,10 @@ h2 {
     #services .card-body {
         min-height: 191px;
     }
+    #events {
+        min-height: 300px;
+        justify-content: center;
+    }
 }
 
 /* Large devices (small laptops, 992px and up) */
@@ -174,6 +172,10 @@ h2 {
     #services .card-body {
         min-height: auto;
     }
+    #events .table {
+        display: flex;
+        justify-content:flex-end;
+    }
 }
 
 /* xl devices (large desktops, 1200px and up) */
@@ -181,6 +183,11 @@ h2 {
     /* make all service cards the same height for consistency */
     #services .card-body {
         min-height: 220px;
+    }
+    
+    #events .table {
+        display: flex;
+        justify-content:flex-end;
     }
 }
 
