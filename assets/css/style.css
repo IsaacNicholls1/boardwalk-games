@@ -68,7 +68,6 @@ h2 {
 }
 
 
-
 /* Navbar */
 
 #navbar {
@@ -158,20 +157,6 @@ h2 {
         min-height: auto;
     }
 
-    /* Style #events section */
-    #events {
-        display: flex;
-        align-items: center;
-    }
-
-    #events .text {
-        flex: 1;
-        margin-right: 20px;
-    }
-
-    #events .table {
-        flex: 1;
-    }
 }
 
 /* xl devices (large desktops, 1200px and up) */

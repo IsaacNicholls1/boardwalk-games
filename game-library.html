@@ -47,6 +47,9 @@
                         <a class="nav-link active" aria-current="page" href="game-library.html">Games</a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#events">Events</a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                     <li class="nav-item">
@@ -216,6 +219,53 @@
                             <p><em>Ages:</em> 8+</p>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container section">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-8">
+                    <h2 class="text-center">Reserve a game</h2>
+                    <p class="text-center mb-4">Reserve a board game for your next visit to Boardwalk Games. Pick your
+                        challenge, and let the adventure begin! Fill out your details and preferred game below, and
+                        we'll have it set aside for you when you arrive.
+                    </p>
+                    <form action="success.html" method="get">
+                        <div class="mb-3">
+                            <label for="fullName" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="fullName" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phoneNumber" class="form-label">Phone Number</label>
+                            <input type="tel" class="form-control" id="phoneNumber" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="emailAddress" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="emailAddress" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="selectGame" class="form-label">Select Game</label>
+                            <select class="form-select" id="selectGame" required>
+                                <option selected disabled value="">Select Game</option>
+                                <option value="game1">Galaxy Pioneers</option>
+                                <option value="game2">Mystic Woods</option>
+                                <option value="game3">Captain's Gambit</option>
+                                <option value="game4">Critter Quest</option>
+                                <option value="game5">Setters of Catan</option>
+                                <option value="game6">Monopoly</option>
+                                <option value="game7">Exploding Kittens</option>
+                                <option value="game8">Cluedo</option>
+                            </select>
+                        </div>
+                        <div class="mb-3">
+                            <label for="requestedDate" class="form-label">Requested Date</label>
+                            <input type="date" class="form-control" id="requestedDate" required>
+                        </div>
+                        <div class="mb-3">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </section>
